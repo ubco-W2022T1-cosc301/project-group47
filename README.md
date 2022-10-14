@@ -1,8 +1,4 @@
-# Group 47 - {Short snappy Title of your project}
-
-**Please remember to update this section**
-
-- Your title can change over time.
+# Group 47 - Healthy Planet
 
 ## Milestones
 
@@ -37,15 +33,10 @@ The dataset used in this project was published by UN Data. Within this dataset, 
 
 **Please remember to update this section and remove the test image!**
 
-{You can use this area for any images you want to include}
-
-<img src ="images/test.png" width="100px">
-
 ## References
 
-**Please remember to update this section**
+https://www.kaggle.com/datasets/vineethakkinapalli/united-nations-environment-data
 
-{Add your credits, acknowledgements, references, or citations **including a link to the data source** here}
 
 
 
