@@ -1,4 +1,4 @@
-# Group YYY - {Short snappy Title of your project}
+# Group 47 - {Short snappy Title of your project}
 
 **Please remember to update this section**
 
@@ -12,7 +12,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 
 **Please remember to update this section**
 
-{Add your stuff here}
+{The purpose of this dataset is for education, transparency and accountability purposes. Global warming is one of the most pressing issues that young and future generations will face. It is crucial to use data analysis and visualization to communicate findings in a way that is accessible to the vast majority of our population. Only by raising awareness is it possible to spur change. It is our hope that this project will shed light on some of the contributing factors of climate change as well as the main players in the international arena. With a decade worth of data, we can analyze trends that showcase which countries have been responsible for the highest CO2 emissions, and which ones have taken the initiative to decrease their carbon footprint. Such information is powerful as it is accompanied by a strong sense of accountability. We are interested in this dataset as global citizens who want to enact change. We have the privilege to have access to such key information, and we hope we can use it for the good.}
 
 ## Describe your dataset in about 150-200 words
 
