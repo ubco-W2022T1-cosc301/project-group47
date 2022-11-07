@@ -1,4 +1,4 @@
-# Group 47 - Healthy Planet
+# Group 47 - Interpreting Happiness 
 
 ## Milestones
 
@@ -8,18 +8,27 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 
 **Please remember to update this section**
 
-The purpose of this dataset is for education, transparency and accountability purposes. Global warming is one of the most pressing issues that young and future generations will face. It is crucial to use data analysis and visualization to communicate findings in a way that is accessible to the vast majority of our population. Only by raising awareness is it possible to spur change. It is our hope that this project will shed light on some of the contributing factors of climate change as well as the main players in the international arena. With a decade worth of data, we can analyze trends that showcase which countries have been responsible for the highest CO2 emissions, and which ones have taken the initiative to decrease their carbon footprint. Such information is powerful as it is accompanied by a strong sense of accountability. We are interested in this dataset as global citizens who want to enact change. We have the privilege to have access to such key information, and we hope we can use it for the good.
 
-The questions we want to explore are those which we’ve had speculations about since the beginning of our project and ones which we believe will be feasible to answer given the scope and limitations of our dataset:
-1. What are the countries that have contributed the most and the least to climate change relief? 
-2. Is there a relationship between the decrease in forest coverage and the increase in threatened species? 
-3. Do countries with a focus on agriculture (based on crop land) release more carbon dioxide?
+As international students from Brazil, Iran, and Egypt, we have all been exposed to different economies and levels of governmental support. We know first hand how it affects our well-being, and we would like to explore this topic further to understand this relationship on a broad, international scale. 
+
+We hope to shed light on the type of policies which are effective in promoting well-being, and which countries have been proficient at it. Such knowledge is imperative to empower our generation to use our democratic rights conscientiously in order to enact change and build a future that can support our well-being as global citizens.
+
+Another reason we chose this dataset for our project is the sheer variety of visualizations we can build upon it. We hope that with the advanced visualization tools in Tableau, we can communicate our findings in a way that is easily interpreted by others. 
+
+We would like to explore the following research questions further: 
+1) Is there a correlation between a country’s GDP per capita and their ‘happiness score’? Could we draw a relationship between a country’s economic performance and its population’s well being?
+
+
 
 ## Describe your dataset in about 150-200 words
 
 **Please remember to update this section**
 
-The dataset used in this project was published by UN Data. Within this dataset, there are four files, each representing distinct variables: (1) carbon dioxide emission estimates, (2) threatened species, (3) water and sanitation, and (4) land coverage devoted to specific purposes (arable land, protected forest land, etc). Each of these data files contains 4 columns; the country, the year, the “series” (the variable under analysis), and the quantitative value that relates to the series. The earliest date included in our dataset is traced back to 1975, for carbon emission estimates. Our latest date, or the most recent data collected, is for Threatened Species during 2020. It is important to note that each of these 4 files have differences in the span of years in which the data has been collected for. A crucial aspect of this project will be to focus on the overlap of independent variables so that correlations between dependent variables can be analyzed.
+The dataset being used in this project was provided by the World Happiness Report 2020 and is published by the United Nations. The report was based on a wide variety of data, but most prominently on the Gallup World Poll. It is imperative to acknowledge the project’s current sponsors, which include the Sustainable Development Solutions Network (SDSN), the Center for Sustainable Development at Columbia University, the Centre for Economic Performance at the LSE, the Vancouver School of Economics at UBC, and the Wellbeing Research Centre at Oxford. 
+
+This dataset contains 12 columns and 1229 rows. Columns include ‘Happiness Rank’, ‘Country’, ‘Region’, ‘Happiness Score’, ‘Economy (GDP per Capita)’, ‘Family (Social Support)’ , ‘Health (Life Expectancy)’, ‘Freedom’ , ‘Trust (Government Corruption)’, ‘Generosity, and ‘Year’. The time frame covered in the dataset spans from 2015 up to 2022. 
+
+The purpose of the data is for accountability and policy-making. This dataset exposes which countries have been committed to their citizens’ well being, and which countries have been neglecting it. Furthermore, policy-makers can observe correlations between the ‘happiness score’ and other factors displayed, such as GDP and social support in order to shape future policies and governmental investments. 
 
 ## Team Members
 
@@ -35,7 +44,9 @@ The dataset used in this project was published by UN Data. Within this dataset, 
 
 ## References
 
-https://www.kaggle.com/datasets/vineethakkinapalli/united-nations-environment-data
+https://www.kaggle.com/datasets/mayzannilarthein44/world-happiness-report-2015-to-2022 
+
+https://www.kaggle.com/datasets/mathurinache/world-happiness-report 
 
 
 
