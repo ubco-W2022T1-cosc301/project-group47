@@ -16,7 +16,8 @@ We hope to shed light on the type of policies which are effective in promoting w
 Another reason we chose this dataset for our project is the sheer variety of visualizations we can build upon it. We hope that with the advanced visualization tools in Tableau, we can communicate our findings in a way that is easily interpreted by others. 
 
 We would like to explore the following research questions further: 
-1) Is there a correlation between a country’s GDP per capita and their ‘happiness score’? Could we draw a relationship between a country’s economic performance and its population’s well being?
+1) What are the main factors that help determine a country's happiness score?
+
 
 
 
