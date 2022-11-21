@@ -1295,8 +1295,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1250' minheight='1250' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='10' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='9' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
+            <zone h='100000' id='12' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='11' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
                 <zone forceUpdate='true' h='4250' id='7' type-v2='text' w='50500' x='1200' y='2125'>
                   <formatted-text>
                     <run bold='true' fontsize='12'>Which variables can help predict a country&apos;s happiness score?</run>
