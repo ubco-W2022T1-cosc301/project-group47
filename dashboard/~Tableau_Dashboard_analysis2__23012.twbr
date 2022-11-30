@@ -817,7 +817,7 @@
       <simple-id uuid='{106308D9-5688-4C21-B21C-BE6A4811B125}' />
     </dashboard>
   </dashboards>
-  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+  <windows pres-mode='true' saved-dpi-scale-factor='1.25' source-height='37'>
     <window class='worksheet' name='World Map'>
       <cards>
         <edge name='left'>
