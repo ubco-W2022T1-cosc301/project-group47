@@ -15,9 +15,11 @@ def load_and_process(url_or_path_to_csv_file):
            .apply(normalize1)
           )
     
+    df3 = normalize1(df2)
+    
     
  
     
     # Make sure to return the latest dataframe
-    return df2
+    return df3
     
