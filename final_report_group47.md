@@ -15,7 +15,7 @@ Anna started off by determining the main factors that help determine a country's
 
 Exploratory data analysis is the crucial process of doing preliminary analysis on data in order to find patterns, identify anomalies, test hypotheses, and double-check assumptions with the aid of summary statistics and graphical representations.
 
-### 2.1: Pairplot of all the numeric columns
+### **2.1: Pairplot of all the numeric columns**
 
 To start off, before doing any data wrangling we wanted to observe if our numeric columns are correlated. If so, what is the correlation between them. Hence, we used the pairplot to help us achieve that. Figure 1. seen below showcases that there is a high correlation between Life Expectancy, Economy, and Happiness Score. However, this figure has a lot of outliers in the correlations for the rest of the columns, which makes us unable to visualize the figure accurately.
 
@@ -24,7 +24,7 @@ To start off, before doing any data wrangling we wanted to observe if our numeri
 *Figure 1. Pairplot of all numeric columns*
 
 
-### 2.2: Correlation matrix for the numeric variables
+### **2.2: Correlation matrix for the numeric variables**
 
 We plotted a correlation matrix to be able to see how the columns are correlated numerically, which was missing in Figure 1. In Figure 2. as seen below, we can see that Happiness Score has the highest correlation with Economy (GDP per capita), followed by Health (Life Expectancy), and then Family (Social Support). Moreover, we can notice that there is a column named "Unnamed" that has a negative correlation with the rest of the dataset. Hence, this column has to be dropped when data wrangling.
 
@@ -32,7 +32,7 @@ We plotted a correlation matrix to be able to see how the columns are correlated
 ![Figure 2. Correlation matrix of all numeric columns](notebooks/EDA2.png)
 *Figure 2. Correlation matrix of all numeric columns*
 
-### 2.3: Scatterplot showing the correlation between Economy and Happiness Score between the years 2015-2022
+### **2.3: Scatterplot showing the correlation between Economy and Happiness Score between the years 2015-2022**
 
 Based on Figure 2, we wanted to analyze further how Economy and Happiness Score are correlated throughout the years 2015-2022. We used a scatter plot as it can clearly show the pattern over the years. In all subplot of Figure 3, there was a positive correlation throughout the years. This is important for future analysis since it might be interpreted that Economy could be the main factor affecting the Happiness Score. However, the subplot for the year 2022 was empty. This could be due to null values and missing data for the year 2022. Moreover, the surveys might have not been conducted yet for this year. Hence, we will be removing the year 2022 from our dataset.
 
@@ -57,7 +57,7 @@ Based on Figure 2, we wanted to analyze further how Economy and Happiness Score 
 ### *What countries have offered their citizens the best living standards between 2015-2021, as observed by happiness score, social support, economy, freedom, and government corruption?*
 
 
-### 4.1: 
+### ** 4.1:  **
 
 
 
