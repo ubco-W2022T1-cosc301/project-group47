@@ -58,9 +58,11 @@ From this matrix, GDP per capita, Life Expectancy, Social Support, and Freedom w
 
 This jointplot takes our analyses one step further and visualizes the positive correlation for GDP and Happiness independently. The scatter clearly showcases the upward sloping relationship, where a data point with a high Happiness Score (located at the rightside of the graph) also enjoys a high GDP per capita (located at the top of the graph), and vice versa. 
 
+Next, I decided to visualize this relationship differently, in a more "intuitive" way, especially to an audience who might not have a background in data analysis. My question when plotting this graph was the following: If I select the 10 happiest countries at a given year, will they showcase a relatively stronger economic background as opposed to the 10 least happy countries? Does the positive correlation hold true? 
+
 ![Fig 4. Bargraph](images/bargraphs_analysis1.png)
 
-
+These plots make it clear that happier countries tend to enjoy a much stronger economy as opposed to those who are ranked less favourably. Excluding Botswana as an outlier, we can see that the countries in the leftside graph display a GDP per capita roughly 3x stronger than the countries in the rightside graph. Nevertheless, it is important to note that the presence of the outlier indicates that the relationship between GDP per capita and the Happiness Score isn't absolute, and there are other factors that come into play. 
 
 
 ## **4.0: Research Question 2**
