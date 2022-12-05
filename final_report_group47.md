@@ -64,6 +64,7 @@ Based on Figure 2, we wanted to analyze further how Economy and Happiness Score 
 
 
 
+
 ## **5.0: Research Question 3**
 
 ### How has life expectancy, economy, and social support contributed to the average global happiness index from 2015-2021?
