@@ -54,7 +54,7 @@ To start answering this research question, a correlation matrix was plotted that
 
 
 
-*Figure 1: Correlation Matrix for all of the numeric variables in the dataset*
+*Figure 4: Correlation Matrix for all of the numeric variables in the dataset*
 
 From this matrix, GDP per capita, Life Expectancy, Social Support, and Freedom were the variables chosen for further analysis as they displayed the strongest correlations with the Happiness Index, at 0.79, 0.73, 0.63 and 0.56, respectively. The most important correlation between the Happiness Score was observed for GDP per capita, and therefore this was the relationship my analyses was focused at. The following graphs help us understand and visualize this relationship better. 
 
@@ -71,7 +71,7 @@ Next, I decided to visualize this relationship differently, in a more "intuitive
 
 ![Fig 4. Bargraph](images/bargraphs_analysis1.png)
 
-*Figure 4: Bar graph displaying GDP per Capita for the 10 happiest countries (leftside graph) and the 10 least happy coutries (rightside graph) in 2021*
+*Figure 6: Bar graph displaying GDP per Capita for the 10 happiest countries (leftside graph) and the 10 least happy coutries (rightside graph) in 2021*
 
 These plots make it clear that happier countries tend to enjoy a much stronger economy as opposed to those who are ranked less favourably. Excluding Botswana as an outlier, we can see that the countries in the leftside graph display a GDP per capita roughly 3x stronger than the countries in the rightside graph. Nevertheless, it is important to note that the presence of the outlier indicates that the relationship between GDP per capita and the Happiness Score isn't absolute, and there are other factors that come into play. 
 
