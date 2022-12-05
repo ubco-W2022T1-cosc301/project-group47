@@ -8,7 +8,7 @@ We hope to shed light on the type of policies which are effective in promoting w
 
 Another reason we chose this dataset for our project is the sheer variety of visualizations we can build upon it. We hope that with the advanced visualization tools in Tableau, we can communicate our findings in a way that is easily interpreted by others. Each team member had their own research question that they were interested to explore more into. 
 
-Anna started off by determining the main factors that help determine a country's happiness score. Consequently, Yahia was exploring which countries offered their citizens the best living standards between the years 2015-2021, as observed by surveys conducted over the years for happiness score, social support, economy, freedom, and government corruption. Lastly, Darya examined how the average global happiness index was affected by economy, life expectancy, and social support between the years 2015-2021.
+Anna started off by determining the main factors that help determine a country's happiness score. Yahia explored which countries offered their citizens the best living standards as observed by the weighted calculation of a given country's GDP per capita, social support level, freedom, and trust in the government. He then compared this calculated index to the Happiness index given by the Gallup World Poll. Lastly, Darya examined how the average global happiness index was affected by economy, life expectancy, and social support between the years 2015-2021.
 
 
 ## **2.0: Exploratory Data Analysis (EDA)**
@@ -46,10 +46,19 @@ Based on Figure 2, we wanted to analyze further how Economy and Happiness Score 
 
 ### *What are the main factors that help determine a country's happiness score?*
 
+To start answering this research question, a correlation matrix was plotted that showcased the correlation between each numeric variable through a -1 to 1 scale (where a higher number corresponds to a stronger correlation). This matrix also uses a color palette where the darker the color the stronger the positive correlation between two given variables (the closer the number is to 1), and where the lighter the color the stronger the negative correlation between two given variables (the closer the number is to -1). This was the starting point of my analysis, as this figure indicated which relationships are significant to pursue further and which ones aren't. 
+
+![Fig 1. Correlation Matrix](images/correlation_analysis1.png)
+
+From this matrix, GDP per capita, Life Expectancy, Social Support, and Freedom were the variables chosen for further analysis as they displayed the strongest correlations with the Happiness Index, at 0.79, 0.73, 0.63 and 0.56, respectively. The most important correlation between the Happiness Score was observed for GDP per capita, and therefore this was the relationship my analyses was focused at. The following graphs help us understand and visualize this relationship better. 
 
 
 
+![Fig 5. Jointplot](images/jointplot_analysis1.png)
 
+This jointplot takes our analyses one step further and visualizes the positive correlation for GDP and Happiness independently. The scatter clearly showcases the upward sloping relationship, where a data point with a high Happiness Score (located at the rightside of the graph) also enjoys a high GDP per capita (located at the top of the graph), and vice versa. 
+
+![Fig 4. Bargraph](images/bargraphs_analysis1.png)
 
 
 
