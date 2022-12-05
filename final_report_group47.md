@@ -38,7 +38,9 @@ We plotted a correlation matrix to be able to see how the columns are correlated
 
 Based on Figure 2, we wanted to analyze further how Economy and Happiness Score are correlated throughout the years 2015-2022. We used a scatter plot as it can clearly show the pattern over the years. In all subplot of Figure 3, there was a positive correlation throughout the years. This is important for future analysis since it might be interpreted that Economy could be the main factor affecting the Happiness Score. However, the subplot for the year 2022 was empty. This could be due to null values and missing data for the year 2022. Moreover, the surveys might have not been conducted yet for this year. Hence, we will be removing the year 2022 from our dataset.
 
+
 ![Figure 3. Scatterplot between Economy and Happiness Score](images/EDA3.png)
+
 *Figure 3. Scatterplot between Economy and Happiness Score throughout the years 2015-2022*
 
 
@@ -50,12 +52,16 @@ To start answering this research question, a correlation matrix was plotted that
 
 ![Fig 1. Correlation Matrix](images/correlation_analysis1.png)
 
+
+
 *Figure 1: Correlation Matrix for all of the numeric variables in the dataset*
 
 From this matrix, GDP per capita, Life Expectancy, Social Support, and Freedom were the variables chosen for further analysis as they displayed the strongest correlations with the Happiness Index, at 0.79, 0.73, 0.63 and 0.56, respectively. The most important correlation between the Happiness Score was observed for GDP per capita, and therefore this was the relationship my analyses was focused at. The following graphs help us understand and visualize this relationship better. 
 
 
 ![Fig 5. Jointplot](images/jointplot_analysis1.png)
+
+
 
 *Figure 5: Jointplot showcasing the relationship between Happiness Score and GDP per Capita as well as the distribution for each of the variables*
 
