@@ -128,3 +128,15 @@ The analysis and visualizations were done to determine how the economy, social s
 
 ## **6.0: Conclusion**
 
+Our analyses from the three different notebooks worked together and were based off of one other in order to paint a clear picture of our dataset and how the variables relate to each other. 
+
+Notebook 1 and 3 both performed correlation analyses which have consistently showcased that the happiness score is most influenced by the GDP per Capita out of all of the other variables in our dataset. Notebook 2 was able to use this information from the correlation indeces displayed by Fig 2 and Fig 4 to choose how to precisely weight each variable in order to construct a secondary Happiness Score. 
+
+Fig 7 and fig 8 reinforce the findings in fig 3 as they both indicate the influence of external factors (not included in our dataset). Figure 3 displays an outlier for the relationship between GDP and Happiness as observed by the least happy 10 countries in 2021. Fig 7 and 8 go beyond that analysis to showcase that, on average throughout 2015 to 2021, the happiness index for the happiest countries demonstrate a stronger corelation between our numeric variables as opposed to less happy countries. 
+
+Independent yet important findings include those illustrated by Fig 10, which highlights how the global average for our numeric variables has fluctuated from 2015 to 2021. One of the most important observations is that the happiness index has remained surprisingly stable over this timeframe despite dramatic increases in Social Support & Life Expectancy and decreases in the GDP per capita. It is possible that, given the strong influence GDP exerts on the Happiness Score, these changes "offset" each other. 
+
+Our analyses have also pointed out to which Countries and Regions have been ranked the highest on average from 2015 to 2021, an eye opening finding that drives global accountability.  
+
+We believe that our analyses have served our intial purpose by showcasing which areas of politics contribute the most to a population's overall satisfaction. We acknowledge the limitations and constraints in our overall work, and see great potential for future research regarding the data and the findings presented above. 
+
