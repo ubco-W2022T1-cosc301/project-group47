@@ -20,7 +20,7 @@ Exploratory data analysis is the crucial process of doing preliminary analysis o
 To start off, before doing any data wrangling we wanted to observe if our numeric columns are correlated. If so, what is the correlation between them. Hence, we used the pairplot to help us achieve that. Figure 1. seen below showcases that there is a high correlation between Life Expectancy, Economy, and Happiness Score. However, this figure has a lot of outliers in the correlations for the rest of the columns, which makes us unable to visualize the figure accurately.
 
 
-![Figure 1. Pairplot of all numeric columns](notebooks/EDA1.png)
+![Figure 1. Pairplot of all numeric columns](images/EDA1.png)
 
 *Figure 1. Pairplot of all numeric columns*
 
@@ -30,7 +30,7 @@ To start off, before doing any data wrangling we wanted to observe if our numeri
 We plotted a correlation matrix to be able to see how the columns are correlated numerically, which was missing in Figure 1. In Figure 2. as seen below, we can see that Happiness Score has the highest correlation with Economy (GDP per capita), followed by Health (Life Expectancy), and then Family (Social Support). Moreover, we can notice that there is a column named "Unnamed" that has a negative correlation with the rest of the dataset. Hence, this column has to be dropped when data wrangling.
 
 
-![Figure 2. Correlation matrix of all numeric columns](notebooks/EDA2.png)
+![Figure 2. Correlation matrix of all numeric columns](images/EDA2.png)
 
 *Figure 2. Correlation matrix of all numeric columns*
 
@@ -38,7 +38,7 @@ We plotted a correlation matrix to be able to see how the columns are correlated
 
 Based on Figure 2, we wanted to analyze further how Economy and Happiness Score are correlated throughout the years 2015-2022. We used a scatter plot as it can clearly show the pattern over the years. In all subplot of Figure 3, there was a positive correlation throughout the years. This is important for future analysis since it might be interpreted that Economy could be the main factor affecting the Happiness Score. However, the subplot for the year 2022 was empty. This could be due to null values and missing data for the year 2022. Moreover, the surveys might have not been conducted yet for this year. Hence, we will be removing the year 2022 from our dataset.
 
-![Figure 3. Scatterplot between Economy and Happiness Score](notebooks/EDA3.png)
+![Figure 3. Scatterplot between Economy and Happiness Score](images/EDA3.png)
 *Figure 3. Scatterplot between Economy and Happiness Score throughout the years 2015-2022*
 
 
@@ -65,7 +65,7 @@ Based on Figure 2, we wanted to analyze further how Economy and Happiness Score 
 
 
 
-![Figure 7. Difference between the Region's Analyzed Happiness Score and their Provided Happiness Score](notebooks/analysis2_fig1.PNG)
+![Figure 7. Difference between the Region's Analyzed Happiness Score and their Provided Happiness Score](images/analysis2_fig1.PNG)
 
 *Figure 7: Difference between the Region's analyzed Happiness Score and their provided Happiness Score*
 
@@ -73,7 +73,7 @@ Based on Figure 2, we wanted to analyze further how Economy and Happiness Score 
 ### 4.2: 
 
 
-![Figure 8. Difference between the top 10 Countries' analyzed Happiness Score and their provided Happiness Score, sorted by the analyzed Happiness Score](notebooks/analysis2_fig2.PNG)
+![Figure 8. Difference between the top 10 Countries' analyzed Happiness Score and their provided Happiness Score, sorted by the analyzed Happiness Score](images/analysis2_fig2.PNG)
 
 *Figure 8. Difference between the top 10 Countries' analyzed Happiness Score and their provided Happiness Score, sorted by the analyzed Happiness Score*
 
@@ -81,7 +81,7 @@ Based on Figure 2, we wanted to analyze further how Economy and Happiness Score 
 ### 4.3: 
 
 
-![Figure 9. Difference between the worst 10 Countries' analyzed Happiness Score and their provided Happiness Score, sorted by the analyzed Happiness Score](notebooks/analysis2_fig3.PNG)
+![Figure 9. Difference between the worst 10 Countries' analyzed Happiness Score and their provided Happiness Score, sorted by the analyzed Happiness Score](images/analysis2_fig3.PNG)
 
 *Figure 9. Difference between the worst 10 Countries' analyzed Happiness Score and their provided Happiness Score, sorted by the analyzed Happiness Score*
 
@@ -94,7 +94,7 @@ Based on Figure 2, we wanted to analyze further how Economy and Happiness Score 
 As an immigrant, I've had the good fortune to reside in Iran and Canada, two countries that are tremendously different from one another in terms of their rankings for freedom, happiness, and other factors like life expectancy and social support. Numerous variables can be used to explain the general happiness level of a country. According to our EDA, it appears that life expectancy, the economy, and social support are the three variables that most closely link with average worldwide happiness across time in each country. I'm interested in learning how factors like these have affected the average worldwide happiness index from 2015 to 2021 and which year had the highest happiness score depending on those aspects. Because these factors have the most link with the happiness score, I selected to further investigate GDP per capita, social support, and life expectancy. "How has life expectancy, economy, and social support influenced the happiness index between 2015 and 2021" is my research question for this project. I began with the raw dataset and made the decision to remove some columns that had no relevance to my research question. I also decided to remove the year 2022 because it had a high percentage of null values based on figure 3 in the EDA section. [If you're interested in the codes, I used to organize my data, here is a link to my complete analysis notebook.](https://github.com/ubco-W2022T1-cosc301/project-group47/blob/main/notebooks/analysis3.ipynb). Before continuing, it's crucial to note that the dataset's numerical variables, which were utilized to create the visualizations, have all been normalized to fit inside the same range from 0-1. My visualizations became clearer and I was able to understand the relationships between the variables better after normalizing my variables. 
 
 
-![Figure 10. Pairplot showing the correlation between my numeric variables](notebooks/analysis3.png)
+![Figure 10. Pairplot showing the correlation between my numeric variables](images/analysis3.png)
 
 *Figure 10. Pairplot showing the correlation between my numeric variables*
 
@@ -102,7 +102,7 @@ Firgure 10. This graph does an excellent job of showing me the distributions of 
 
 
 
-![Figure 11. Linegraph showing the average column based on each year and its relations](notebooks/analysis3.1.png)
+![Figure 11. Linegraph showing the average column based on each year and its relations](images/analysis3.1.png)
 
 *Figure 11. Linegraph showing the average column based on each year and its relations*
 Figure11. shows very well how the average numeric variables in our dataset changed between 2015 and 2021. It's noteworthy to see that the happiness score has generally remained consistent despite increases in Social Support between 2016 and 2017 and the rise of life expectancy after 2018. Even though Figure 2 in the EDA section shows a substantial average association between GDP and happiness, when we look at this line graph, we can see that the highest point in global GDP per capita is also the lowest point in happiness. But as the economy began to improve in the years 2020-2021, we can observe that the happiness score also increased. Additionally, this graph shows that starting in 2019, both life expectancy and social support have dramatically declined. This might be connected to the Covid virus, which appeared in 2019 and persisted through 2022. This decline in those 2 factors is understandable. It's intriguing that, despite this, the happiness score had a relatively small impact and continued to rise over those years(2020-2021) of economic growth.
