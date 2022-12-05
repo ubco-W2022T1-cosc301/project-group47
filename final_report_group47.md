@@ -76,7 +76,7 @@ These plots make it clear that happier countries tend to enjoy a much stronger e
 
 
 
-![Figure 7. Difference between the Region's Analyzed Happiness Score and their Provided Happiness Score](images/analysis2_fig1.PNG)
+![Figure 7. Difference between the Region's Analyzed Happiness Score and their Provided Happiness Score](images/analysis2.1.PNG)
 
 *Figure 7: Difference between the Region's analyzed Happiness Score and their provided Happiness Score*
 
@@ -84,7 +84,7 @@ These plots make it clear that happier countries tend to enjoy a much stronger e
 ### 4.2: 
 
 
-![Figure 8. Difference between the top 10 Countries' analyzed Happiness Score and their provided Happiness Score, sorted by the analyzed Happiness Score](images/analysis2_fig2.PNG)
+![Figure 8. Difference between the top 10 Countries' analyzed Happiness Score and their provided Happiness Score, sorted by the analyzed Happiness Score](images/analysis2.2.PNG)
 
 *Figure 8. Difference between the top 10 Countries' analyzed Happiness Score and their provided Happiness Score, sorted by the analyzed Happiness Score*
 
@@ -92,7 +92,7 @@ These plots make it clear that happier countries tend to enjoy a much stronger e
 ### 4.3: 
 
 
-![Figure 9. Difference between the worst 10 Countries' analyzed Happiness Score and their provided Happiness Score, sorted by the analyzed Happiness Score](images/analysis2_fig3.PNG)
+![Figure 9. Difference between the worst 10 Countries' analyzed Happiness Score and their provided Happiness Score, sorted by the analyzed Happiness Score](images/analysis2.3.PNG)
 
 *Figure 9. Difference between the worst 10 Countries' analyzed Happiness Score and their provided Happiness Score, sorted by the analyzed Happiness Score*
 
