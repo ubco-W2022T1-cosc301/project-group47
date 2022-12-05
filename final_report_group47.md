@@ -113,7 +113,7 @@ Firgure 10. This graph does an excellent job of showing me the distributions of 
 
 
 
-![Figure 11. Linegraph showing the average column based on each year and its relations](images/analysis3.1.png)
+![Figure 11. Linegraph showing the average column based on each year and its relations](images/linegraph_analysis3.png)
 
 *Figure 11. Linegraph showing the average column based on each year and its relations*
 Figure11. shows very well how the average numeric variables in our dataset changed between 2015 and 2021. It's noteworthy to see that the happiness score has generally remained consistent despite increases in Social Support between 2016 and 2017 and the rise of life expectancy after 2018. Even though Figure 2 in the EDA section shows a substantial average association between GDP and happiness, when we look at this line graph, we can see that the highest point in global GDP per capita is also the lowest point in happiness. But as the economy began to improve in the years 2020-2021, we can observe that the happiness score also increased. Additionally, this graph shows that starting in 2019, both life expectancy and social support have dramatically declined. This might be connected to the Covid virus, which appeared in 2019 and persisted through 2022. This decline in those 2 factors is understandable. It's intriguing that, despite this, the happiness score had a relatively small impact and continued to rise over those years(2020-2021) of economic growth.
