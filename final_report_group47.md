@@ -42,7 +42,7 @@ Based on Figure 2, we wanted to analyze further how Economy and Happiness Score 
 
 ## **3.0: Research Question 1**
 
-### What are the main factors that help determine a country's happiness score?
+### *What are the main factors that help determine a country's happiness score?*
 
 
 
@@ -54,21 +54,38 @@ Based on Figure 2, we wanted to analyze further how Economy and Happiness Score 
 
 ## **4.0: Research Question 2**
 
-### What countries have offered their citizens the best living standards between 2015-2021, as observed by happiness score, social support, economy, freedom, and government corruption?
+### *What countries have offered their citizens the best living standards between 2015-2021, as observed by happiness score, social support, economy, freedom, and government corruption?*
 
 
-### **4.1: **
-
-![Figure 7. Scatterplot between Economy and Happiness Score](notebooks/analysis2_fig1.png)
+### 4.1: 
 
 
 
+
+
+![Figure 7. Difference between the Region's Analyzed Happiness Score and their Provided Happiness Score](notebooks/analysis2_fig1.PNG)
+*Figure 7: Difference between the Region's analyzed Happiness Score and their provided Happiness Score*
+
+
+### 4.2: 
+
+
+![Figure 8. Difference between the top 10 Countries' analyzed Happiness Score and their provided Happiness Score, sorted by the analyzed Happiness Score](notebooks/analysis2_fig2.PNG)
+
+*Figure 8. Difference between the top 10 Countries' analyzed Happiness Score and their provided Happiness Score, sorted by the analyzed Happiness Score*
+
+
+### 4.3: 
+
+
+![Figure 9. Difference between the worst 10 Countries' analyzed Happiness Score and their provided Happiness Score, sorted by the analyzed Happiness Score](notebooks/analysis2_fig3.PNG)
+*Figure 9. Difference between the worst 10 Countries' analyzed Happiness Score and their provided Happiness Score, sorted by the analyzed Happiness Score*
 
 
 
 ## **5.0: Research Question 3**
 
-### How has life expectancy, economy, and social support contributed to the average global happiness index from 2015-2021?
+### *How has life expectancy, economy, and social support contributed to the average global happiness index from 2015-2021?*
 
 
 
