@@ -56,9 +56,10 @@ Based on Figure 2, we wanted to analyze further how Economy and Happiness Score 
 
 ### What countries have offered their citizens the best living standards between 2015-2021, as observed by happiness score, social support, economy, freedom, and government corruption?
 
+
 ### **4.1: **
 
-
+![Figure 7. Scatterplot between Economy and Happiness Score](notebooks/analysis2_fig1.png)
 
 
 
