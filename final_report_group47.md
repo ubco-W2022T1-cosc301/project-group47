@@ -75,6 +75,8 @@ Next, I decided to visualize this relationship differently, in a more "intuitive
 
 These plots make it clear that happier countries tend to enjoy a much stronger economy as opposed to those who are ranked less favourably. Excluding Botswana as an outlier, we can see that the countries in the leftside graph display a GDP per capita roughly 3x stronger than the countries in the rightside graph. Nevertheless, it is important to note that the presence of the outlier indicates that the relationship between GDP per capita and the Happiness Score isn't absolute, and there are other factors that come into play. 
 
+[To see the codes used to complete these figures, follow this link to my complete analysis notebook.](https://github.com/ubco-W2022T1-cosc301/project-group47/blob/main/notebooks/analysis1.ipynb).
+
 
 ## **4.0: Research Question 2**
 
