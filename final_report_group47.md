@@ -47,7 +47,8 @@ Based on Figure 2, we wanted to analyze further how Economy and Happiness Score 
 ### *What are the main factors that help determine a country's happiness score?*
 
 To start answering this research question, a correlation matrix was plotted that showcased the correlation between each numeric variable through a -1 to 1 scale (where a higher number corresponds to a stronger correlation). This matrix also uses a color palette where the darker the color the stronger the positive correlation between two given variables (the closer the number is to 1), and where the lighter the color the stronger the negative correlation between two given variables (the closer the number s to -1). This was the starting point of my analysis, as this figure indicated which relationships are significant to pursue further and which ones aren't. 
-![Fig 1. Correlation Matrix](correlation_analysis1.png)
+
+![Fig 1. Correlation Matrix](images/correlation_analysis1.png)
 
 From this matrix, GDP per capita, Life Expectancy, Social Support, and Freedom were the variables chosen for further analysis as they displayed the strongest correlations with the Happiness Index, at 0.79, 0.73, 0.63 and 0.56, respectively. 
 
