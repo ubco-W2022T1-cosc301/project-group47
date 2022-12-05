@@ -88,6 +88,8 @@ These plots make it clear that happier countries tend to enjoy a much stronger e
 
 *Figure 8. Difference between the top 10 Countries' analyzed Happiness Score and their provided Happiness Score, sorted by the analyzed Happiness Score*
 
+As seen in figure 4.2, for the 10 happiest coutries, the calculated and given happiness index follow a very similar trend, displaying that in these countries, the strength of the economy, level of social support, life expectancy, and trust in the government seem to directly determine the population's life satisfaction. 
+
 
 ### 4.3: 
 
@@ -96,6 +98,7 @@ These plots make it clear that happier countries tend to enjoy a much stronger e
 
 *Figure 9. Difference between the worst 10 Countries' analyzed Happiness Score and their provided Happiness Score, sorted by the analyzed Happiness Score*
 
+For the 10 countries that received the average lowest rank in the happiness index, the calculated and given happiness index still follow a similar trend, but the similarity is not as pronounced as that observed in figure 4.2. This indicates that, for these countries, external factors not included in this dataset play a bigger role in determining a population's satisfaction. Nevertheless, the 10 countries that received the lowest rank in the Happiness Score given by the Gallup World Poll were also the countries that collectively displayed the worst performance in the economy, social support, life expectancy, and trust in the government. This means that although the relationship between the Happiness Score and these 4 factors aren't as strong for the worst ranked countries as compared to the best ranked countries,  they still play a crucial role in determining the population's overall "happiness", or life satisfaction. 
 
 
 ## **5.0: Research Question 3**
