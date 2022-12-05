@@ -50,8 +50,13 @@ To start answering this research question, a correlation matrix was plotted that
 
 ![Fig 1. Correlation Matrix](images/correlation_analysis1.png)
 
-From this matrix, GDP per capita, Life Expectancy, Social Support, and Freedom were the variables chosen for further analysis as they displayed the strongest correlations with the Happiness Index, at 0.79, 0.73, 0.63 and 0.56, respectively. 
+From this matrix, GDP per capita, Life Expectancy, Social Support, and Freedom were the variables chosen for further analysis as they displayed the strongest correlations with the Happiness Index, at 0.79, 0.73, 0.63 and 0.56, respectively. The most important correlation between the Happiness Score was observed for GDP per capita, and therefore this was the relationship my analyses was focused at. The following graphs help us understand and visualize this relationship better. 
 
+![Fig 5. Jointplot](images/jointplot_analysis1.png)
+
+This jointplot takes our analyses one step further and visualizes the positive correlation for GDP and Happiness independently. The scatter clearly showcases the upward sloping relationship, where a data point with a high Happiness Score (located at the rightside of the graph) also enjoys a high GDP per capita (located at the top of the graph), and vice versa. 
+
+![Fig 4. Bargraph](images/bargraphs_analysis1.png)
 
 
 
