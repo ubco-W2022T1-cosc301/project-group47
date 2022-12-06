@@ -30,7 +30,7 @@ To start off, before doing any data wrangling we wanted to observe if our numeri
 We plotted a correlation matrix to be able to see how the columns are correlated numerically, which was missing in Figure 1. In Figure 2. as seen below, we can see that Happiness Score has the highest correlation with Economy (GDP per capita), followed by Health (Life Expectancy), and then Family (Social Support). Moreover, we can notice that there is a column named "Unnamed" that has a negative correlation with the rest of the dataset. Hence, this column has to be dropped when data wrangling.
 
 
-![Figure 2. Correlation matrix of all numeric columns](https://github.com/ubco-W2022T1-cosc301/project-group47/blob/main/images/EDA2.png)
+![Figure 2. Correlation matrix of all numeric columns](images/EDA2.png)
 
 *Figure 2. Correlation matrix of all numeric columns*
 
